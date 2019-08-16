@@ -1,0 +1,60 @@
+body {
+    margin: 0 auto;
+}
+
+.one    {
+    position: relative;
+    float: left;
+	width:151px;
+	height:210px;
+	background: url(img/7.jpg);
+    z-index: 1;
+}
+
+.two    {
+    position: relative;
+    float: left;
+    margin-left: -110px;
+    margin-top: 60px;
+    width:151px;
+	height:210px;
+    background-image: url(img/ace.jpg);
+    z-index: 3;
+}
+
+.three   {
+    position: relative;
+    float: left;
+    margin-left: -110px;
+    margin-top: 120px;
+    width:150px;
+	height:210px;
+    background-image: url(img/king.jpg);
+    z-index: 5;
+}
+
+.four    {
+    position: relative;
+    float: left;
+    margin-left: -110px;
+    margin-top: 180px;
+    width:150px;
+	height:210px;
+    background-image: url(img/queen.jpg);
+    z-index: 7;
+}
+
+.five    {
+    position: relative;
+    float: left;
+    margin-left: -110px;
+    margin-top: 240px;
+    width:150px;
+	height:210px;
+    background-image: url(img/val.jpg);
+    z-index: 9;
+}
+
+div:hover{
+    z-index: 10;
+}
