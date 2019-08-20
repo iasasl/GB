@@ -1,0 +1,117 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+header {
+    padding: 50px;
+    min-height: 230px;
+    background-color: #445161;
+}
+
+header h1 {
+    margin: 0;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+header ul {
+    margin-left: -10px;
+}
+
+header ul li {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-image: url(img/check_icon.png);
+    white-space: nowrap;
+}
+
+.header-text-content {
+    float: left;
+}
+
+header img {
+    float: right;
+}
+
+.about-your-product {
+    padding: 50px;
+    min-height: 250px;
+}
+
+.about-your-product article {
+    float: left;
+    width: 650px;
+    
+}
+
+.about-your-product h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0;
+}
+
+.about-your-product article p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-your-product video {
+    float: right;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+}
+
+.dignity-and-pluses-product {
+    background-color: #f5f5f5;
+    padding: 50px;
+    min-height: 323px;
+}
+
+.dignity-and-pluses-product h2 {
+    text-align: center;
+    margin: 0;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.dignity-and-pluses-product ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dignity-and-pluses-product ul li{
+    background: url(img/3-layers.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 7.6%;
+    padding-left: 41px;
+    padding-bottom: 35px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dapp-left {
+    float: left;
+    width: 46%;
+}
+
+.dapp-right {
+    float: right;
+    width: 46%;
+}
