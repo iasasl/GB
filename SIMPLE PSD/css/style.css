@@ -1,0 +1,378 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+header {
+    padding: 50px;
+    min-height: 230px;
+    background-color: #445161;
+}
+
+header h1 {
+    margin: 0;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+header ul {
+    margin-left: -10px;
+}
+
+header ul li {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-image: url(../img/check_icon.png);
+    white-space: nowrap;
+}
+
+.header-text-content {
+    float: left;
+}
+
+header img {
+    float: right;
+}
+
+.about-your-product {
+    padding: 50px;
+    min-height: 250px;
+}
+
+.about-your-product:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.about-your-product article {
+    float: left;
+    width: 650px;
+
+}
+
+.about-your-product h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0;
+}
+
+.about-your-product article p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-your-product video {
+    float: right;
+    background-color: #445161;
+}
+
+.dignity-and-pluses-product {
+    background-color: #f5f5f5;
+    padding: 50px;
+    min-height: 323px;
+}
+
+.dignity-and-pluses-product:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.dignity-and-pluses-product h2 {
+    text-align: center;
+    margin: 0;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.dignity-and-pluses-product ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dignity-and-pluses-product ul li {
+    background: url(../img/3-layers.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 7.6%;
+    padding-left: 41px;
+    padding-bottom: 35px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dapp-left {
+    float: left;
+    width: 46%;
+}
+
+.dapp-right {
+    float: right;
+    width: 46%;
+}
+
+.screenshots {
+    min-height: 433px;
+}
+
+.screenshots:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.screenshots h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.skr-left {
+    float: left;
+    width: 50%;
+}
+
+.skr-right {
+    float: right;
+    width: 50%;
+}
+
+.screenshots figure {
+    padding-bottom: 35px;
+}
+
+.screenshots figure img {
+    float: left;
+}
+
+.screenshots-text {
+    display: block;
+    margin-top: -30px;
+    width: 360px;
+    padding-left: 216px;
+}
+
+.screenshots h3 {
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.screenshots-text span {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.reviews {
+    background-color: #f5f5f5;
+    min-height: 278px;
+    padding: 50px;
+}
+
+.reviews:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.reviews h2 {
+    padding-bottom: 35px;
+    margin: 0;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.rev-left {
+    float: left;
+    width: 50%;
+}
+
+.rev-right {
+    float: right;
+    width: 46%;
+}
+
+.reviews-content {
+    padding-bottom: 35px;
+}
+
+.reviews-content-image {
+    float: left;
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-radius: 50%;
+}
+
+.reviews-text {
+    display: block;
+    width: 483px;
+    padding-left: 91px;
+}
+
+.reviews-quote-text {
+    display: block;
+    padding-bottom: 15px;
+    color: #333333;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.reviews-quote-name {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+footer {
+    margin-top: -25px;
+    background-color: #445161;
+    min-height: 550px;
+}
+
+.footer:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+footer h2 {
+    padding-top: 53px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+
+
+input[type="text"] {
+    margin-bottom: 22px;
+    padding: 0 15px;
+    display: block;
+    height: 40px;
+    width: 470px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    
+}
+
+input[type="text"]:focus {
+    border: 1px solid grey;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 22px;
+    resize: none;
+    height: 170px;
+    width: 495px;
+    text-indent: 13px;
+    line-height: 32px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-family: "Arial";
+}
+
+textarea:focus {
+    border: 1px solid grey;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-left: 180px;
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    color: #445161;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.con-right {
+    float: left;
+}
+
+.con-right ul {
+    list-style: none;
+    margin: 0;
+}
+
+.con-right ul li {
+    margin-bottom: 18px;
+}
+
+.con-right ul li span{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contact-phone {
+    display: block;
+    background-image: url(../img/phone_icon.png);
+    background-repeat: no-repeat;
+    height: 26px;
+    padding-left: 28px;
+}
+
+.contact-skype {
+    background-image: url(../img/skype_icon.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 26px;
+    padding-left: 28px;
+}
+
+.contact-icq {
+    background-image: url(../img/icq_icon.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 26px;   
+    padding-left: 28px;
+}
+
+.contact-email {
+    background-image: url(../img/email_icon.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 26px;
+    padding-left: 28px;
+}
+
+.contacts-form {
+    padding-left: 249px;
+    float: left;
+}
