@@ -1,26 +1,31 @@
 @font-face {
     font-family: montserrat;
-    src: url(../fonts/montserrat-regular.ttf)
+    src: url(../fonts/montserrat-regular.ttf);
 }
 
 @font-face {
     font-family: montserrat-light;
-    src: url(../fonts/montserrat-light.ttf)
+    src: url(../fonts/montserrat-light.ttf);
 }
 
 @font-face {
     font-family: raleway;
-    src: url(../fonts/raleway-regular.ttf)
+    src: url(../fonts/raleway-regular.ttf);
 }
 
 @font-face {
     font-family: raleway-extrabold;
-    src: url(../fonts/raleway-extrabold.ttf)
+    src: url(../fonts/raleway-extrabold.ttf);
 }
 
 @font-face {
     font-family: raleway-semibold;
-    src: url(../fonts/raleway-semibold.ttf)
+    src: url(../fonts/raleway-semibold.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto-regular.ttf);
 }
 
 body {
@@ -662,6 +667,305 @@ header {
 }
 
 
-.video-preview-text button:hover .video-preview-text button svg path{
+.video-preview-text button:hover .video-preview-text button svg path {
     fill: #c7b299;
+}
+
+.mobile {
+    background-color: #fbfaf8;
+    padding: 80px 16% 7.37% 23%;
+}
+
+.mobile img {
+    display: block;
+    float: left;
+}
+
+.mobile-text-content {
+    display: block;
+    padding-left: 42%;
+    padding-top: 8%;
+}
+
+.mobile-text-content h2 {
+    color: #555555;
+    font-family: "raleway-semibold";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.mobile-text-content p {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.mobile-text-content ul {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.mobile-text-content ul li {
+    list-style: none;
+    background: url(../img/mobile-list-style.png) no-repeat left 30%;
+    padding-left: 42px;
+    line-height: 38px;
+}
+
+.achievments {
+    display: flex;
+    padding: 35px 26% 25px 26%;
+    width: 48%;
+    flex-wrap: nowrap;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+}
+
+.achievments-content {
+    text-align: center;
+    margin: 35px;
+}
+
+.achievments-content::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.achievments-content svg {
+    padding-bottom: 30px;
+    fill: #c7b299;
+}
+
+.achiements-content-number {
+    display: block;
+    color: #fff;
+    font-family: 'montserrat-light';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.achiements-content-subj {
+    display: block;
+    margin: 20px 0 30px 0;
+    color: #c7b299;
+    white-space: nowrap;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.recent-posts {
+    padding-top: 80px;
+}
+
+.recent-posts-content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.recent-posts h2 {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'raleway-semibold';
+    color: #555555;
+}
+
+.recent-posts p {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 25px;
+    width: 42%;
+    text-align: center;
+    color: #8c8c8c;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.rpc-block {
+    width: 370px;
+    margin: 15px;
+}
+
+.rpc-block:hover img {
+    filter: brightness(30%);
+    transition-duration: .1s;
+}
+
+.rpc-block:hover .rpc-date-top {
+    background-color: #c7b299;
+    transition-duration: .1s;
+}
+
+.rpc-block:hover .rpc-date-bottom {
+    background-color: #a48d72;
+    transition-duration: .1s;
+}
+
+.rpc-block:hover h3 {
+    color: #c7b299;
+    transition-duration: .1s;
+}
+
+.rpc-block:hover span {
+    color: #ffffff;
+    transition-duration: .1s;
+}
+
+.rpc-block:hover .rpc-block-content {
+    background-color: #362f2d;
+    transition-duration: .1s;
+}
+
+.rpc-block-img {
+    position: relative;
+    display: flex;
+    width: 370px;
+}
+
+.rpc-block-content {
+    padding: 30px;
+    outline: 1px solid #f8f8f8;
+    background-color: #fff;
+}
+
+.rpc-block-content h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #555555;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rpc-block-content span {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.rpc-block-content a {
+    display: block;
+    padding-top: 27px;
+    text-decoration: none;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.rpc-pagination {
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    left: 36%;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.rpc-date {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: block;
+}
+
+.rpc-date-top {
+    display: block;
+    background-color: #363636;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.rpc-date-bottom {
+    display: block;
+    background-color: #252525;
+    text-align: center;
+    padding: 7px 14px;
+    border-radius: 0 0 5px 5px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.rpc-arrows {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 80px 0;
+}
+
+.rpc-arrows a {
+    padding-right: 8px;
+}
+
+.rpc-arrows a svg {
+    fill: #ccc;
+}
+
+.rpc-arrows a svg:hover {
+    fill: #c7b299;
+    transition-duration: .1s;
+}
+
+.pagination-dot {
+    display: block;
+    width: 10px;
+    margin-right: 10px;
+    min-height: 10px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+.pagination-dot:hover {
+    border: 2px solid #d3c1ad;
+    border-radius: 50%;
+    opacity: 1;
+    background: none;
+    transition-duration: .2s;
+}
+
+
+.partners {
+    display: flex;
+    padding: 140px 0 140px 0;
+    background-image: url(../img/partners-bg.jpg);
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.partners img {
+    padding-right: 90px;
 }
