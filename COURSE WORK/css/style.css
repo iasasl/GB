@@ -969,3 +969,247 @@ header {
 .partners img {
     padding-right: 90px;
 }
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 80px 0;
+    background-color: #191919;
+}
+
+.contacts a {
+    color: #00bff3;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    color: #31d3ff;
+}
+
+.contacts a:active {
+    color: #959595;
+}
+
+.contacts-read-more-link {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.contacts-content {
+    width: 270px;
+    margin-right: 20px;
+}
+
+.contacts-rp-content {
+    position: relative;
+    padding-bottom: 34px;
+}
+
+.contacts-ot-content {
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.contacts h2 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contacts p {
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.contacts time {
+    color: #363636;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.sub-logo {
+    display: flex;
+    justify-items: left;
+    align-items: center;
+    text-decoration: none;
+    clear: both;
+}
+
+.sub-logo svg {
+    fill: #ffffff;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.sub-logo span {
+    display: block;
+    width: 20%;
+    font-family: 'raleway', sans-serif;
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+
+}
+
+.sub-logo:hover svg {
+    fill: #c7b299;
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+
+.sub-logo:hover span {
+    color: #c7b299;
+}
+
+.sub-logo:active svg {
+    fill: #b59977;
+    -webkit-transform: rotate(240deg);
+    transform: rotate(240deg);
+}
+
+.sub-logo:active span {
+    color: #b59977;
+}
+
+.contacts-rp-content p {
+    margin: 3px 0 0 0;
+}
+
+.contacts-rp-content:hover:before {
+    content: '';
+    position: absolute;
+    display: block;
+    margin-top: -17px;
+    width: 270px;
+    height: 1px;
+    background-color: #252525;
+}
+
+.contacts-rp-content:hover:after {
+    content: '';
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    margin-top: 17px;
+    width: 270px;
+    height: 1px;
+    background-color: #252525;
+    transition: .4s;
+}
+
+.contacts-ot-content:hover:before {
+    content: '';
+    position: absolute;
+    display: block;
+    margin-top: -13px;
+    width: 270px;
+    height: 1px;
+    background-color: #252525;
+    transition: .4s;
+}
+
+.contacts-ot-content:hover:after {
+    content: '';
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    margin-top: 17px;
+    width: 270px;
+    height: 1px;
+    background-color: #252525;
+}
+
+.contacts-rp-content:hover time {
+    color: #ffffff;
+    transition: .2s;
+}
+
+.contacts-rp-content:hover p {
+    color: #c7b299;
+    transition: .2s;
+}
+
+.contacts-ot-content p {
+    margin-bottom: 3px;
+}
+
+.contacts-ot-content:hover time {
+    color: #ffffff;
+    transition: .2s;
+}
+
+.contacts-ot-content:hover p {
+    color: #c7b299;
+    transition: .2s;
+}
+
+.dribble-widget-content {
+    width: 290px;
+}
+
+.dribble-widget-content img {
+    padding: 2px;
+}
+
+footer {
+    background-color: #111111;
+    padding: 45px 20% 50px 20%;
+}
+
+footer a {
+    margin-right: 12px;
+    text-decoration: none;
+    color: #555555;
+    font-family: Montserrat;    
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+footer a:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    margin: 4px 0 5px 0;
+    margin-left: 9px;
+    height: 13px;
+    width: 0.8px;
+    background-color: #252525;
+}
+
+footer a:nth-last-child(1):after {
+    display: none;
+}
+
+footer a span {
+    color: #959595;
+}
+
+footer a:hover {
+    color: #c7b299;
+    transition: .3s;
+}
+
+footer a:hover span {
+    color: #ebe3da;
+    transition: .3s;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
