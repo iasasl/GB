@@ -1251,6 +1251,15 @@ footer a:hover span {
         width: 100%;
     }
     
+    .video {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .video video {
+        width: 100%;
+    }
+    
     .video-preview-text {
         width: 100%;
         left: auto;
