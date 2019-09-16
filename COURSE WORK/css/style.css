@@ -1160,7 +1160,7 @@ footer a {
     margin-right: 12px;
     text-decoration: none;
     color: #555555;
-    font-family: Montserrat;    
+    font-family: Montserrat;
     font-size: 13px;
     font-weight: 300;
     line-height: 20px;
@@ -1201,4 +1201,118 @@ footer a:hover span {
 
 .footer-right {
     float: right;
+}
+
+@media (max-width: 1090px) {
+
+    body {
+        width: 100%;
+    }
+
+    .header-menu {
+        visibility: hidden;
+    }
+
+    .slider-text {
+        display: none;
+    }
+
+    .pagination {
+        display: none;
+    }
+
+    .services {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .waxom-iroyi {
+        display: none;
+    }
+
+    .purchase-window {
+        display: none;
+    }
+
+    .olp-submenu {
+        display: none;
+    }
+
+    .olp-content {
+        display: none;
+    }
+
+    .olp-button {
+        display: none;
+    }
+
+    .our-latest-projects p {
+        width: 100%;
+    }
+    
+    .video-preview-text {
+        width: 100%;
+        left: auto;
+    }
+    
+    .mobile {
+        padding-left: 5%;
+        position: relative;
+    }
+    
+    .mobile img {
+        width: 50%;
+        height: auto;
+    }
+    
+    .mobile-text-content{
+        padding: 0;
+    }
+    
+    .achievments {
+        width: 100%;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .recent-posts p {
+        width: 90%;
+    }
+    
+    .recent-posts-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .rpc-arrows {
+        display: none;
+    }
+    
+    .partners {
+        width: 100%;
+        padding: 70px 0 70px 0;
+    }
+    
+    .partners img {
+        width: 17%;
+        height: auto;
+        padding-right: 5%;
+    }
+    
+    .contacts {
+        display: none;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+    
+    footer nav {
+        padding-bottom: 30px;
+    }
 }
