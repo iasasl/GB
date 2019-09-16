@@ -38,7 +38,7 @@ header {
     background-image: url(../img/header-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 40px 0 40px 0;
+    padding: 33px 0 40px 0;
 }
 
 .logo {
@@ -318,12 +318,8 @@ header {
 
 .screenshots-positioning img {
     margin-right: -540px;
-    -webkit-transform: scale(1, 1);
-    -webkit-transition-timing-function: ease-out;
-    -webkit-transition-duration: 350ms;
-    -moz-transform: scale(1, 1);
-    -moz-transition-timing-function: ease-out;
-    -moz-transition-duration: 350ms;
+    position: relative;
+    transition: .3s linear;
 }
 
 .iroyi-screenshot-1 {
@@ -341,14 +337,7 @@ header {
 
 .screenshots-positioning img:hover {
     z-index: 10;
-    width: 800px;
-    height: auto;
-    -webkit-transform: scale(1.02, 1.02);
-    -webkit-transition-timing-function: ease-out;
-    -webkit-transition-duration: 350ms;
-    -moz-transform: scale(1.02, 1.02);
-    -moz-transition-timing-function: ease-out;
-    -moz-transition-duration: 350ms;
+    transform: scale(1.05);
 }
 
 .iroyi-text {
@@ -958,7 +947,7 @@ header {
 
 .partners {
     display: flex;
-    padding: 140px 0 140px 0;
+    padding: 140px 0 139px 0;
     background-image: url(../img/partners-bg.jpg);
     flex-wrap: nowrap;
     align-items: center;
