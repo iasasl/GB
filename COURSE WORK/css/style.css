@@ -666,14 +666,15 @@ header {
     padding: 80px 16% 7.37% 23%;
 }
 
-.mobile img {
+.mobile-img-content img {
     display: block;
     float: left;
 }
 
 .mobile-text-content {
     display: block;
-    padding-left: 42%;
+    width: 60%;
+    float: right;
     padding-top: 8%;
 }
 
@@ -692,7 +693,9 @@ header {
     line-height: 28px;
 }
 
-.mobile-text-content ul {
+.mobile-img-content ul {
+    float: right;
+    padding-right: 45px;
     color: #8c8c8c;
     font-family: Montserrat;
     font-size: 16px;
@@ -700,7 +703,7 @@ header {
     line-height: 28px;
 }
 
-.mobile-text-content ul li {
+.mobile-img-content ul li {
     list-style: none;
     background: url(../img/mobile-list-style.png) no-repeat left 30%;
     padding-left: 42px;
@@ -1204,17 +1207,26 @@ footer a:hover span {
     float: right;
 }
 
-<<<<<<< Updated upstream
 @media (max-width: 1090px) {
 
     body {
         width: 100%;
     }
 
+    header {
+        padding: 0;
+    }
+
+    .logo {
+        padding: 4% 0 2% 1%;
+        margin-left: 40%;
+    }
+
     .header-menu {
         visibility: hidden;
     }
 
+    
     .slider-text {
         display: none;
     }
@@ -1258,27 +1270,48 @@ footer a:hover span {
         padding: 0;
     }
     
-    .video video {
+    .video {
         width: 100%;
+        padding: 0;
     }
     
+    .video video {
+        height: 30%;
+    }
+
     .video-preview-text {
         width: 100%;
         left: auto;
     }
     
     .mobile {
-        padding-left: 5%;
+        padding: 1% 0 0 5%;
         position: relative;
     }
     
     .mobile img {
-        width: 50%;
+        float: left;
+        order: 1;
+        width: 30%;
         height: auto;
     }
     
     .mobile-text-content{
         padding: 0;
+        width: 100%;
+        order: 2;
+        float: right;
+    }
+
+    .mobile-text-content h2 {
+        display: block;
+        width: 100%;
+    }
+
+    .mobile-img-content ul{
+        width: 55%;
+        padding: 0;
+        font-size: 1.7vw;
     }
     
     .achievments {
@@ -1327,8 +1360,4 @@ footer a:hover span {
         padding-bottom: 30px;
     }
 }
-=======
-@media (max-width: 1080px) {
-    
-}
->>>>>>> Stashed changes
+
