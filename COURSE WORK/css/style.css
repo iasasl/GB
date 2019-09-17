@@ -35,6 +35,7 @@ body {
 }
 
 header {
+    width: 100%;
     background-image: url(../img/header-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -1203,6 +1204,7 @@ footer a:hover span {
     float: right;
 }
 
+<<<<<<< Updated upstream
 @media (max-width: 1090px) {
 
     body {
@@ -1325,3 +1327,8 @@ footer a:hover span {
         padding-bottom: 30px;
     }
 }
+=======
+@media (max-width: 1080px) {
+    
+}
+>>>>>>> Stashed changes
