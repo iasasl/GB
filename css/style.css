@@ -1270,13 +1270,8 @@ footer a:hover span {
         padding: 0;
     }
     
-    .video {
-        width: 100%;
-        padding: 0;
-    }
-    
     .video video {
-        height: 30%;
+        width: 100%;
     }
 
     .video-preview-text {
